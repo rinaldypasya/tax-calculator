@@ -1,8 +1,8 @@
 package services
 
 import (
-	"../objects"
-	"../repositories"
+	"github.com/rinaldypasya/src/objects"
+	"github.com/rinaldypasya/src/repositories"
 	"fmt"
 	"strconv"
 )

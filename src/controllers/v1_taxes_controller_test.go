@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"../database"
+	"github.com/rinaldypasya/src/database"
 	"bytes"
 	"encoding/json"
 	"github.com/joho/godotenv"
@@ -11,7 +11,7 @@ import (
 )
 
 func init() {
-	godotenv.Load("../.env")
+	godotenv.Load("github.com/rinaldypasya/src/.env")
 	database.Initialize()
 }
 

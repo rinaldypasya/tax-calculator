@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"../constants"
-	"../helpers"
-	"../objects"
-	"../services"
+	"github.com/rinaldypasya/src/constants"
+	"github.com/rinaldypasya/src/helpers"
+	"github.com/rinaldypasya/src/objects"
+	"github.com/rinaldypasya/src/services"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

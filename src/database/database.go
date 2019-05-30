@@ -1,7 +1,7 @@
 package database
 
 import (
-	"../models"
+	"github.com/rinaldypasya/src/models"
 	"fmt"
 	"github.com/fatih/color"
 	"github.com/go-sql-driver/mysql"
@@ -202,7 +202,7 @@ type customLoggerStruct struct {
 	zap *zap.Logger
 }
 
-func (l *customLoggerStruct) Print(values ...interface{}) {
+func (l *customLoggerStruct) Print(values github.com/rinaldypasya/src.interface{}) {
 	var additionalString = ""
 	for _, item := range values {
 		if _, ok := item.(string); ok {

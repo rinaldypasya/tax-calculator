@@ -1,7 +1,7 @@
 package helpers
 
 import (
-	"../constants"
+	"github.com/rinaldypasya/src/constants"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-sql-driver/mysql"

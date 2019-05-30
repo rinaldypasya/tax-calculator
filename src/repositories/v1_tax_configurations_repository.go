@@ -1,8 +1,8 @@
 package repositories
 
 import (
-	"../database"
-	"../models"
+	"github.com/rinaldypasya/src/database"
+	"github.com/rinaldypasya/src/models"
 	"github.com/jinzhu/gorm"
 )
 
