@@ -24,11 +24,15 @@ golang_service    | 0.0.0.0:3000
 golang_service    | [GIN-debug] Listening and serving HTTP on 0.0.0.0:3000
 ```
 
-Project URL should be: localhost:3000
+Project URL should be: http://localhost:3000
 
 ### Database Structure
 
-Inside `src/models` is represent database structure and auto migration by gorm
+There're two models :
+- Taxes
+- TaxConfigurations
+
+Inside `src/models` that represent database structure and auto migration by gorm.
 
 ### Endpoint Documentation
 
